@@ -1,0 +1,97 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1px 65px;
+  margin: 1px 65px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: #fff;
+  img {
+    border-radius: 15px;
+  }
+
+  .contentProfile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: $colorsecondary;
+    padding: 12px 18px;
+    border-radius: 15px;
+
+    span {
+      padding: 8px;
+      opacity: 0.5;
+
+      border-right: 1px solid #fff;
+    }
+
+    p {
+      opacity: 0.75;
+    }
+  }
+}
+
+.titleMain {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 1px;
+  color: #fff;
+  gap: 15px;
+  margin: 10px 1px;
+
+  h2 {
+    opacity: 0.75;
+  }
+
+  p {
+    opacity: 0.5;
+  }
+}
+
+.repositories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+  .divRepository {
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(to left, #111629, #1b1a42);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+
+    h3 {
+      margin-bottom: 20px;
+      opacity: 0.75;
+    }
+    span {
+      margin-bottom: 20px;
+      opacity: 0.5;
+    }
+
+    .infoRepository {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      p {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.p {
+  opacity: 0.5;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
