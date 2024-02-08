@@ -5,4 +5,64 @@
   box-sizing: border-box;
   font-family: "Be Vietnam Pro"; }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #20293a; }
+
+.header {
+  display: flex;
+  flex-direction: column; }
+
+.imgPlanet {
+  position: relative; }
+
+.search {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+  padding: 20px; }
+
+.inputSearch {
+  display: flex;
+  gap: 10px;
+  background-color: #20293a;
+  padding: 12px 20px;
+  border-radius: 10px;
+  width: 450px; }
+  .inputSearch input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px; }
+
+.resultSearch {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #111629;
+  color: #fff;
+  padding: 12px 20px;
+  width: 450px;
+  border-radius: 10px; }
+  .resultSearch img {
+    border-radius: 15px; }
+  .resultSearch .contentSearch {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; }
+    .resultSearch .contentSearch span {
+      font-size: 16px;
+      opacity: 0.75; }
+    .resultSearch .contentSearch p {
+      font-size: 14px;
+      opacity: 0.5; }
+
 /*# sourceMappingURL=main.css.map */
