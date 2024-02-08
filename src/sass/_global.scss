@@ -1,8 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap");
 
+$colorPrimary: #20293a;
+$colorsecondary: #111629;
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Be Vietnam Pro";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: $colorPrimary;
 }
